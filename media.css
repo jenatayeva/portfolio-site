@@ -1,0 +1,88 @@
+@media screen and (max-width: 770px) {
+    body {
+        background-color: #F2FEFF;
+    }
+
+    .navbar {
+        z-index: 3;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .link {
+        /* sabitlemek ucin mydama one chykar yaly we scroll bolandada yitenok */
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        top: 80px;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background: #ffffff;
+        display: none;
+        align-items: center;
+    }
+
+    .link ul {
+        width: 100%;
+    }
+
+    .link ul li {
+        display: block;
+        padding-left: 0px;
+        text-align: center;
+        padding: 2rem 0;
+
+    }
+
+    .hamburg {
+        display: block;
+    }
+
+    .landing-section {
+        display: block;
+
+    }
+
+    .left-side {
+        text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+        background: none;
+    }
+
+    .left-side h1 {
+        font-size: 52px;
+        line-height: 70px;
+    }
+
+    .left-side p {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    button {
+        width: 170px;
+        height: 40px;
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+
+    .right-side {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 3rem;
+    }
+
+    .image {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .image>img {
+        width: 100%
+    }
+}
